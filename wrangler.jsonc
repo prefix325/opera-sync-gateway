@@ -1,0 +1,29 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "opera-sync-gateway",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-07-17",
+  "workers_dev": true,
+  "preview_urls": false,
+  "observability": {
+    "enabled": true
+  },
+  "upload_source_maps": true,
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "secrets": {
+    "required": [
+      "OPERA_SITE_TOKEN",
+      "OPERA_ADMIN_TOKEN"
+    ]
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "opera-canonical-db",
+      "database_id": "38046ef4-1c38-4c73-9747-741b3bd1b9f6",
+      "migrations_dir": "migrations"
+    }
+  ]
+}

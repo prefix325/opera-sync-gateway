@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0.0",
+  "opera_version": "21.2-dev",
+  "event_id": "opera-test-start-001",
+  "tipo_evento": "start",
+  "gerado_em": "2026-07-17T05:30:00-03:00",
+  "origem": {
+    "sistema": "teste_local",
+    "ambiente": "wrangler_dev"
+  },
+  "dados": {
+    "fotografia_formal": {
+      "completa": true,
+      "tickets": [
+        {
+          "codigo": "anon-001",
+          "titulo": "Validação técnica de relatório",
+          "status_formal": "Em andamento",
+          "ativo": true,
+          "classificacao_analitica": "solicitacao",
+          "sintese": {
+            "solicitacao_original": "Validar tecnicamente a atualização de um relatório anonimizado.",
+            "evolucao_resumida": "Triagem concluída e validação técnica preparada.",
+            "decisoes_relevantes": [
+              "Manter o teste com dados anonimizados."
+            ],
+            "ultimo_avanco": "Estrutura inicial revisada.",
+            "situacao_atual": "Pronto para validação.",
+            "dependencias": [],
+            "pendencias": [
+              "Executar o teste funcional."
+            ],
+            "proximo_passo": "Validar o resultado no Gateway.",
+            "resumo_natural": "O chamado trata da validação técnica de um relatório anonimizado. A estrutura inicial foi revisada e o próximo passo é executar o teste funcional."
+          },
+          "complexidade": "baixa",
+          "esforco_restante_min": 30,
+          "esforco_restante_max": 60,
+          "confianca_estimativa": "media",
+          "incertezas": []
+        }
+      ]
+    },
+    "sessoes": [],
+    "apontamentos": [],
+    "planejamento": {
+      "planejamento_id": "opera-main",
+      "gerado_em": "2026-07-17T05:30:00-03:00",
+      "horizonte_inicio": "2026-07-17T00:00:00-03:00",
+      "horizonte_fim": "2026-07-24T23:59:59-03:00",
+      "expira_em": "2026-07-24T23:59:59-03:00",
+      "blocos": [
+        {
+          "block_id": "opera-test-block-001",
+          "codigo": "anon-001",
+          "tipo": "planejado",
+          "status": "ativo",
+          "titulo": "Validação técnica",
+          "detalhes": "Bloco anonimizado para teste do Gateway.",
+          "inicio": "2026-07-17T09:00:00-03:00",
+          "fim": "2026-07-17T10:00:00-03:00",
+          "origem": "opera"
+        }
+      ]
+    },
+    "metricas": {
+      "quantidade_apontamentos": 0,
+      "total_minutos": 0,
+      "total_horas": "0h00"
+    }
+  },
+  "transmissao": {
+    "status": "nao_executada",
+    "tentativas": 0
+  },
+  "integridade": {
+    "fotografia_completa": true,
+    "dados_anonimizados": true,
+    "schema_validado": true
+  }
+}
